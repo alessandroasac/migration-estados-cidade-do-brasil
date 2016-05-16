@@ -1403,7 +1403,7 @@ class PopulaEstadosCidades < ActiveRecord::Migration
     e.cidades.create(:nome => "Timbiras")
     e.cidades.create(:nome => "Timon")
     e.cidades.create(:nome => "Trizidela do Vale")
-    e.cidades.create(:nome => "Tsiglailândia")
+    e.cidades.create(:nome => "Tufilândia")
     e.cidades.create(:nome => "Tuntum")
     e.cidades.create(:nome => "Turiaçu")
     e.cidades.create(:nome => "Turilândia")
@@ -5720,7 +5720,7 @@ class PopulaEstadosCidades < ActiveRecord::Migration
     e.cidades.create(:nome => "Xambioá")
     e.capital = Cidade.find_by_nome_and_estado_id('Palmas', Estado.find_by_nome('Tocantins').id)
     e.save
-    
+
   end
 
   def self.down
